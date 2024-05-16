@@ -1,0 +1,81 @@
+[class*="col-"] {
+    width:100%;
+
+}
+@media only screen and (min-width: 768px) { 
+    [class*="col-"] {
+        float:left;
+        padding: 15px;
+        background-image: url(images/honselersdijk.jpg);
+    }
+    
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+header {
+    width:100%;
+    height:200px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Huis_Honselersdijk_binnentuin.png/907px-Huis_Honselersdijk_binnentuin.png');
+    background-size: cover;
+    background-position: center;
+    }
+
+#header {
+        color: #fff;
+        font-size: 32px;
+        text-align: center;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        -webkit-text-stroke: 2px black;    }
+#content { 
+    min-height: 300px ;
+}
+
+#een {}
+
+#twee {
+    clear: fixed;
+
+}
+
+h3 { 
+    font-size:14px;
+    font-family: "Poetsen One", sans-serif;
+
+}        
+
+img { 
+
+float:right;
+width:150px;
+}
+
+
+
+footer { 
+    min-height:25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #99ffb1 ;
+    color: black;
+    text-align: center;
+    padding-bottom:5px;
+
+}
